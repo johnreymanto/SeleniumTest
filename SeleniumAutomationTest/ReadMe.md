@@ -8,16 +8,25 @@
 
 ## Execution
 
-Manual:
-
-1. Clone the git
+1. Clone Git project
+```bash
+git clone https://github.com/johnreymanto/SeleniumTest.git
+```
+2. Run the script
+```bash
+mvn test -Dtest=<TestScript>
+```
+Note: You should be at the root directory to run this command.
+Make sure to replace `<TestScript>` with the path and name of the example you want to run.
 
 ## Test Reports
 
 - **Reports**: After test execution, Reports are generated and stored in the `allure-results` directory.
   To generate this report temporarily, run this code below.
 
-'allure serve ./allure-results'
+```bash
+allure serve ./allure-results
+```
 
 **Note:** This will generate and open the report in a browser.
 
@@ -26,7 +35,8 @@ Manual:
 Ensure you have the following dependencies installed:
 
 - Java 22 or latest
-- Maven 4
-- CDP Chrome browser
+- Maven
+- Chrome Webdriver
+- Nodejs
 
 ---
