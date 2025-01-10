@@ -16,7 +16,7 @@ git clone https://github.com/johnreymanto/SeleniumTest.git
 ```bash
 mvn test -Dtest=<TestScript>
 ```
-Note: You should be at the root directory to run this command.
+**Note:** You should be at the root directory to run this command.
 Make sure to replace `<TestScript>` with the name of the automation script you want to run.
 
 ## Test Reports
@@ -27,8 +27,7 @@ Make sure to replace `<TestScript>` with the name of the automation script you w
 ```bash
 allure serve ./allure-results
 ```
-
-**Note:** This will generate and open the report in a browser.
+**Note:** You should be at the allure-results directory to run this command.
 
 ## Dependencies
 
