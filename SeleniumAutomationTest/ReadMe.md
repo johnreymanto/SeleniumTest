@@ -35,7 +35,13 @@ Ensure you have the following dependencies installed:
 
 - Java 22 or latest
 - Maven
-- Chrome Webdriver
-- Nodejs
+- NodeJs
+- Chrome 
+- Web Driver
+
+**Note:** Update Chrome webdriver path in test script.
+```declarative
+/Users/*/*/chromedriver-mac-x64/chromedriver
+```
 
 ---
