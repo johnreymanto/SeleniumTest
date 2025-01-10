@@ -17,7 +17,7 @@ git clone https://github.com/johnreymanto/SeleniumTest.git
 mvn test -Dtest=<TestScript>
 ```
 Note: You should be at the root directory to run this command.
-Make sure to replace `<TestScript>` with the path and name of the example you want to run.
+Make sure to replace `<TestScript>` with the name of the automation script you want to run.
 
 ## Test Reports
 
